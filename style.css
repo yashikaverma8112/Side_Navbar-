@@ -1,0 +1,41 @@
+*{
+  font-family: 'Times New Roman', Times, serif;
+}
+body{
+    margin: 0;
+    background-color: rgb(216, 225, 233);
+    
+   }
+    .panel {
+      background-color: #dcc9c9;
+      margin-top:0;
+      padding: 20px;
+      width: 152px;
+      height: 680px;
+      float: left;
+    }
+
+    .panel ul {
+      list-style-type: none;
+      padding: 0;
+      margin-top: 161px;
+    }
+    
+    .panel li {
+        margin-bottom: 10px;
+        padding:17px;
+    }
+    
+    .panel li a {
+        color: #333;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 27px;
+    }
+    
+    .panel li a:hover {
+      
+        font-weight: bold;
+      color: darkred;
+      text-transform: uppercase;
+    }
